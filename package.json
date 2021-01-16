@@ -1,17 +1,88 @@
 {
-  "name": "json-server-deploy",
-  "version": "1.0.0",
-  "description": "Simple json database to deploy to the host of your choice",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "keywords": [
-    "json-server,heroku, node, REST API"
+  "animals": [
+    {
+      "id": 2,
+      "name": "Joker",
+      "breed": "German shepard",
+      "locationId": 1,
+      "treatment": "claw clip",
+      "customerId": 1
+    },
+    {
+      "name": "Smoky",
+      "breed": "Black and tan coonhound",
+      "locationId": 1,
+      "customerId": 1,
+      "id": 3,
+      "treatment": ""
+    },
+    {
+      "name": "Misko",
+      "breed": "redbone coonhound",
+      "locationId": 2,
+      "customerId": 1,
+      "id": 4,
+      "treatment": ""
+    },
+    {
+      "name": "Spike",
+      "breed": "Boxer",
+      "locationId": 1,
+      "treatment": "ear nip",
+      "customerId": 1,
+      "id": 5
+    }
   ],
-  "author": "Jesper Orb",
-  "license": "ISC",
-  "dependencies": {
-    "json-server": "^0.16.2"
-  }
+  "customers": [
+    {
+      "email": "leon@kennels.com",
+      "password": "goodboys",
+      "name": "leon Dean",
+      "id": 1
+    },
+    {
+      "email": "jon@kennels.com",
+      "password": "goodboys",
+      "name": "jon johns",
+      "id": 2
+    },
+    {
+      "email": "jim@kennels.com",
+      "password": "goodboys",
+      "name": "james howell",
+      "id": 3
+    }
+  ],
+  "employees": [
+    {
+      "name": "Hector",
+      "locationId": 2,
+      "animalId": 3,
+      "id": 6
+    },
+    {
+      "name": "Jeff",
+      "locationId": 1,
+      "animalId": 5,
+      "id": 7
+    },
+    {
+      "name": "Rick Eddy",
+      "locationId": 1,
+      "animalId": 2,
+      "id": 8
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    }
+  ]
 }
