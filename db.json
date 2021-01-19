@@ -1,16 +1,307 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "email": "user1@notsorry.com",
+      "password": "defgoing",
+      "name": "Leo",
+      "id": 1
+    },
+    {
+      "email": "user2@gmail.com",
+      "password": "defgoing",
+      "name": "Taylor S",
+      "id": 2
+    },
+    {
+      "email": "user3@gmail.com",
+      "password": "defgoing",
+      "name": "Tom H",
+      "id": 3
+    },
+    {
+      "email": "user4@gmail.com",
+      "password": "defgoing",
+      "name": "Joe J",
+      "id": 4
+    },
+    {
+      "email": "new@gmail.com",
+      "password": "defgoing",
+      "name": "Betty",
+      "id": 5
+    },
+    {
+      "email": "sabrina@gmail.com",
+      "password": "defgoing",
+      "name": "Sabrina",
+      "id": 6
+    },
+    {
+      "email": "nessa@gmail.com",
+      "password": "defgoing",
+      "name": "Nakato",
+      "id": 7
+    },
+    {
+      "email": "vilde@gmail.com",
+      "password": "defgoing",
+      "name": "Vilde",
+      "id": 8
+    },
+    {
+      "email": "raul@gmail.com",
+      "password": "defgoing",
+      "name": "Raul",
+      "id": 9
+    },
+    {
+      "email": "jess@gmail.com",
+      "password": "defgoing",
+      "name": "Jess",
+      "id": 10
     }
   ],
-  "comments" : [
+  "events": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "name": "Miss Tess",
+      "location": "5 Spot",
+      "startDate": "2021-02-25T22:00",
+      "details": "Six bands, 5 min each",
+      "userId": 3,
+      "id": 8
+    },
+    {
+      "id": 9,
+      "name": "Mike and the Moonpies",
+      "location": "Dee's",
+      "startDate": "2021-02-26T22:48",
+      "details": "Rocking",
+      "userId": 3
+    },
+    {
+      "name": "Organic Country",
+      "location": "Nashville Palace",
+      "startDate": "2021-01-29T22:00",
+      "details": "sick bands all night",
+      "userId": 2,
+      "id": 10
+    },
+    {
+      "name": "Jonas Brothers",
+      "location": "Cobra",
+      "startDate": "2021-01-31T22:00",
+      "details": "Three brothers sing pop",
+      "userId": 4,
+      "id": 11
+    },
+    {
+      "name": "Birdcloud",
+      "location": "East Room",
+      "startDate": "2021-01-22T20:30",
+      "details": "Whimsical folk rock",
+      "userId": 2,
+      "id": 12
+    },
+    {
+      "name": "Croy and the boys",
+      "location": "American Legion",
+      "startDate": "2021-01-09T20:30",
+      "details": "Dancing country",
+      "userId": 5,
+      "id": 13
+    }
+  ],
+  "messages": [],
+  "watchList": [
+    {
+      "id": 3,
+      "userId": 2,
+      "watchedUserId": 5,
+      "watch": false
+    },
+    {
+      "userId": 2,
+      "watchedUserId": 3,
+      "watch": true,
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "watchedUserId": 5,
+      "watch": false,
+      "id": 10
+    }
+  ],
+  "usersEvents": [
+    {
+      "eventId": 8,
+      "userId": 5,
+      "id": 4
+    },
+    {
+      "eventId": 9,
+      "userId": 5,
+      "id": 5
+    },
+    {
+      "eventId": 12,
+      "userId": 3,
+      "id": 16
+    },
+    {
+      "eventId": 9,
+      "userId": 3,
+      "id": 23
+    },
+    {
+      "eventId": 8,
+      "userId": 3,
+      "id": 24
+    },
+    {
+      "eventId": 13,
+      "userId": 2,
+      "id": 46
+    },
+    {
+      "eventId": 13,
+      "userId": 6,
+      "id": 49
+    },
+    {
+      "eventId": 12,
+      "userId": 2,
+      "id": 51
+    },
+    {
+      "eventId": 10,
+      "userId": 6,
+      "id": 52
+    },
+    {
+      "eventId": 11,
+      "userId": 6,
+      "id": 53
+    },
+    {
+      "eventId": 8,
+      "userId": 6,
+      "id": 54
+    },
+    {
+      "eventId": 9,
+      "userId": 6,
+      "id": 55
+    },
+    {
+      "eventId": 13,
+      "userId": 7,
+      "id": 56
+    },
+    {
+      "eventId": 12,
+      "userId": 7,
+      "id": 58
+    },
+    {
+      "eventId": 10,
+      "userId": 7,
+      "id": 59
+    },
+    {
+      "eventId": 11,
+      "userId": 7,
+      "id": 60
+    },
+    {
+      "eventId": 8,
+      "userId": 7,
+      "id": 61
+    },
+    {
+      "eventId": 9,
+      "userId": 7,
+      "id": 62
+    },
+    {
+      "eventId": 13,
+      "userId": 8,
+      "id": 63
+    },
+    {
+      "eventId": 12,
+      "userId": 8,
+      "id": 65
+    },
+    {
+      "eventId": 10,
+      "userId": 8,
+      "id": 66
+    },
+    {
+      "eventId": 11,
+      "userId": 8,
+      "id": 67
+    },
+    {
+      "eventId": 8,
+      "userId": 8,
+      "id": 68
+    },
+    {
+      "eventId": 13,
+      "userId": 9,
+      "id": 69
+    },
+    {
+      "eventId": 12,
+      "userId": 9,
+      "id": 71
+    },
+    {
+      "eventId": 9,
+      "userId": 9,
+      "id": 75
+    },
+    {
+      "eventId": 13,
+      "userId": 10,
+      "id": 76
+    },
+    {
+      "eventId": 12,
+      "userId": 10,
+      "id": 78
+    },
+    {
+      "eventId": 10,
+      "userId": 10,
+      "id": 79
+    },
+    {
+      "eventId": 11,
+      "userId": 10,
+      "id": 80
+    },
+    {
+      "eventId": 8,
+      "userId": 10,
+      "id": 81
+    },
+    {
+      "eventId": 9,
+      "userId": 10,
+      "id": 82
+    },
+    {
+      "eventId": 11,
+      "userId": 4,
+      "id": 83
+    },
+    {
+      "eventId": 8,
+      "userId": 4,
+      "id": 84
     }
   ]
 }
